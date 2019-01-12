@@ -1,0 +1,437 @@
+<resources>
+    <string name="app_name">Smart College</string>
+
+
+    <string-array name="Main">
+        <item> Timetable </item>
+        <item> Subjects </item>
+        <item> Faculty </item>
+        <item> CompSa </item>
+        <item> College Curriculum </item>
+        <item> Student Information </item>
+        <item>  Placements </item>
+
+
+    </string-array>
+
+    <string-array name="Description">
+
+        <item> TE-A </item>
+        <item> Includes Subjects of TE-Comp </item>
+        <item> Details of Faculty </item>
+        <item> CompSa Events </item>
+        <item> Includes Activities of College </item>
+        <item> Data of student ex.Roll no,Branch,year.. </item>
+        <item> Includes placed students from DYPIEMR</item>
+
+    </string-array>
+
+    <string-array name="Week">
+        <item> Monday </item>
+        <item> Tuesday </item>
+        <item> Wednesday </item>
+        <item> Thursday </item>
+        <item> Friday </item>
+        <item> Saturday </item>
+
+
+    </string-array>
+
+    <string-array name="Monday">
+        <item> TA1-CN TA2,TA3 -DBMS TA4-SDL </item>
+        <item> BREAK </item>
+        <item> SEPM  </item>
+        <item> DBMS  </item>
+        <item> SHORT BREAK </item>
+        <item> SDL TUT-KN </item>
+        <item> CN SAP </item>
+    </string-array>
+
+    <string-array name="Tuesday">
+        <item> TA1-SDL TA2-CN TA3-SDL TA4-DBMS</item>
+        <item> BREAK </item>
+        <item> CN  </item>
+        <item> TOC  </item>
+        <item> SHORT BREAK </item>
+        <item> DBMS  </item>
+        <item> SEPM  </item>
+    </string-array>
+
+    <string-array name="Wednesday">
+        <item> TA1-DBMS TA2,TA3,TA4-SDL </item>
+        <item> BREAK </item>
+        <item> ISEE  </item>
+        <item> TOC  </item>
+        <item> SHORT BREAK </item>
+        <item> SEPM </item>
+        <item> FREE TIME </item>
+    </string-array>
+
+    <string-array name="Thursday">
+        <item> TA1-SDL TA2,TA3-DBMS TA4-CN </item>
+        <item> BREAK </item>
+        <item> ISEE  </item>
+        <item> CN  </item>
+        <item> SHORT BREAK </item>
+        <item> DBMS  </item>
+        <item> SDL  </item>
+    </string-array>
+
+    <string-array name="Friday">
+        <item> TA1-DBMS TA2-SDL TA3-CN TA4-DBMS </item>
+        <item> BREAK </item>
+        <item> CN  </item>
+        <item> TOC  </item>
+        <item> SHORT BREAK </item>
+        <item> ISEE  </item>
+        <item> FREE TIME </item>
+    </string-array>
+
+    <string-array name="Saturday">
+        <item> Extra Lecture </item>
+        <item> Guest Lecture </item>
+    </string-array>
+
+
+    <string-array name="time1">
+        <item>"10.10AM - 12.10PM</item>
+        <item>"12.10AM - 12.50PM</item>
+        <item>"12.50PM - 1.45PM</item>
+        <item>"1.45PM - 2.40PM</item>
+        <item>"2.40PM - 2.50PM</item>
+        <item>"2.50PM - 3.45PM</item>
+        <item>"3.45PM - 4.40PM</item>
+
+
+    </string-array>
+
+    <string-array name="time2">
+        <item>"10.10AM - 12.10PM</item>
+        <item>"12.10AM - 12.50PM</item>
+        <item>"12.50PM - 1.45PM</item>
+        <item>"1.45PM - 2.40PM</item>
+        <item>"2.40PM - 2.50PM</item>
+        <item>"2.50PM - 3.45PM</item>
+        <item>"3.45PM - 4.40PM</item>
+
+
+    </string-array>
+
+
+    <string-array name="time3">
+        <item>"10.10AM - 12.10PM</item>
+        <item>"12.10AM - 12.50PM</item>
+        <item>"12.50PM - 1.45PM</item>
+        <item>"1.45PM - 2.40PM</item>
+        <item>"2.40PM - 2.50PM</item>
+        <item>"2.50PM - 3.45PM</item>
+        <item>"3.45PM - 4.40PM</item>
+
+    </string-array>
+
+
+    <string-array name="time4">
+        <item>"10.10AM - 12.10PM</item>
+        <item>"12.10AM - 12.50PM</item>
+        <item>"12.50PM - 1.45PM</item>
+        <item>"1.45PM - 2.40PM</item>
+        <item>"2.40PM - 2.50PM</item>
+        <item>"2.50PM - 3.45PM</item>
+        <item>"3.45PM - 4.40PM</item>
+
+
+    </string-array>
+
+
+    <string-array name="time5">
+        <item>"10.10AM - 12.10PM</item>
+        <item>"12.10AM - 12.50PM</item>
+        <item>"12.50PM - 1.45PM</item>
+        <item>"1.45PM - 2.40PM</item>
+        <item>"2.40PM - 2.50PM</item>
+        <item>"2.50PM - 3.45PM</item>
+        <item>"3.45PM - 4.40PM</item>
+    </string-array>
+
+
+    <string-array name="time6">
+        <item>"10.10AM - 12.10PM"</item>
+        <item>                   </item>
+    </string-array>
+
+
+    <string-array name="Subjects">
+        <item> Database Management System </item>
+        <item> Theory Of Computation </item>
+        <item> Software Engineering and Management </item>
+        <item> Information Systems and Engineering Economics </item>
+        <item> Computer Networks </item>
+    </string-array>
+
+
+    <string-array name="DBMS">
+    <item>Introduction to Database Management Systems, Purpose of Database Systems, DatabaseSystem
+Applications, View of Data, Database Languages, Database System Structure, Data Models,
+Database Design and ER Model Entity, Attributes, Relationships, Constraints, Keys, Design
+Process, Entity Relationship Model, ER Diagram, Design Issues, Extended ER Features,
+converting ER and EER diagram into tables</item>
+
+        <item>SQL: Characteristics and advantages, SQL Data Types and Literals, DDL, DML, DCL, TCL,SQL Operators, Tables: Creating, Modifying, Deleting, Views: Creating, Dropping, Updating
+using Views, Indexes, SQL DML Queries: SELECT Query and clauses, Set Operations,Predicates and Joins, Set membership, Tuple Variables, Set comparison, Ordering of Tuples,
+Aggregate Functions, Nested Queries, Database Modification using SQL Insert, Update andDelete Queries. PLSQL: concept of Stored Procedures and Functions, Cursors, Triggers,
+Assertions, roles and privileges , Embedded SQL, Dynamic SQL</item>
+
+        <item>Relational Model Basic concepts, Attributes and Domains, CODDs Rules, Relational IntegrityDomain, Referential , Enterprise Constraints, Database Design Features of Good
+Relational Designs, Normalization, Atomic Domains and First Normal Form,  Functional Dependencies, Algorithms for Decomposition, 2NF, 3NF, , Modeling
+Temporal Data.
+</item>
+
+        <item>Basic concept of a Transaction, Transaction Management, Properties of Transactions, Concept ofSchedule, Serial Schedule,  Conflict and View, Cascaded Aborts, Recoverable and
+Non-recoverable Schedules, Concurrency Control: Need, Locking Methods, Deadlocks, Methods, Recovery methods  ShadowPaging and LogBased Recovery, Checkpoints,
+Query Processing, Query Optimization, Performance Tuning.
+</item>
+
+        <item>Introduction to Database Architectures DBMS Architectures, Case study OracleArchitecture. Parallel Databases: Speedup and Scale up, Architectures of Parallel Databases.
+Distributed Databases: Architecture of Distributed Databases, Distributed Database Design,Distributed Data Storage, Distributed Transaction: Basics, Failure modes, Commit Protocols,
+Concurrency Control in Distributed Database</item>
+
+        <item>Introduction to NoSQL Database, Types and examples of NoSQL Database Key value store,
+document store, graph, Performance, Structured verses unstructured data, Distributed Database
+Model, CAP theorem and BASE Properties, Comparative study of SQL and NoSQL, NoSQL
+Data Models, Case Study unstructured data from social media. Introduction to Big Data,MapReduce.
+</item>
+
+
+    </string-array>
+
+
+    <string-array name="TOC">
+
+
+ <item>Introduction to Formal language, introduction to language translation logic, Essentials of translation, Alphabets and languages, Finite representation of language, Finite Automata (FA): An
+Informal Picture of FA, Finite State Machine , Language accepted by FA, Definition of Regular Language, Deterministic and Nondeterministic FA, epsilon NFA, FA
+with output Moore and Mealy machines Definition, models, interconversion.Case Study FSM for vending machine, spell checker</item>
+
+        <item>Operators of RE, Building RE, Precedence of operators, Algebraic laws for RE, Conversions: NFA to DFA, RE to DFA Conversions: RE to DFA, DFA to RE Conversions: State/loop elimination,
+Arden theorem Properties of Regular Languages Pumping Lemma for Regular languages,Closure and Decision properties.Case Study: RE in text search and replace </item>
+
+        <item>Introduction, Regular Grammar, Context Free Grammar Definition, Derivation, Language of grammar, sentential form, parse tree, inference, derivation, parse trees, ambiguity in grammar and
+Language- ambiguous Grammar, Simplification of CFG Eliminating unit productions, useless production, useless symbols, and productions, Normal Forms Chomsky normal form,
+Greibach normal form, Closure properties of CFL, Decision properties of CFL, ChomskyHierarchy, Application of CFG: Parser, Markup languages, XML and Document Type
+Definitions.Case Study- CFG for Palindromes, Parenthesis Match, Turing Machine Model, Representation of Turing Machines, Language Acceptability by Turing
+Machines, Design of TM, Description of TM, Techniques for TM Construction, Variants of TuringMachines, The Model of Linear Bounded Automata , TM and Type 0 grammars, TM Halting
+Problem.</item>
+
+        <item>Turing Machine Model, Representation of Turing Machines, Language Acceptability by TuringMachines, Design of TM, Description of TM, Techniques for TM Construction, Variants of Turing
+Machines, The Model of Linear Bounded Automata , TM and Type  grammars,  HaltingProblem.
+</item>
+
+        <item>Basic Definitions, Equivalence of Acceptance by Finite State and Empty stack, PDA and Context FreeLanguage, Equivalence of PDA and CFG, Parsing and PDA: Top-Down Parsing, Topdown Parsing
+Using Deterministic PDA, Bottom-up Parsing, Closure properties and Deterministic PDA.
+</item>
+
+        <item>A Language that is not recursively enumerable, An undecidable problem that is RE, Post
+Correspondence Problem, The Classes P and NP  Problems Solvable in Polynomial Time, An
+Example Kruskal Algorithm, Nondeterministic Polynomial Time, An NP Example The
+Traveling Salesman Problem, Polynomial-Time Reductions NP Complete Problems, An NPComplete
+Problem The Satisfiability Problem, Tractable and Intractable Representing SAT
+Instances, NP Completeness of the SAT Problem, A Restricted Satisfiability Problem Normal
+Forms for Boolean Expressions, Converting Expressions to CNF, The Problem of Independent
+Sets, The NodeCover Problem.</item>
+
+
+    </string-array>
+
+
+    <string-array name="SEPM">
+
+        <item>Software Engineering Fundamentals Nature of Software, Software Engineering Principles,The Software Process, Software Myths. Process Models A Generic Process Model, Prescriptive
+Process Models The Waterfall, Incremental Process, Evolutionary Process, UnifiedProcess, Concurrent. Advanced Process Models and Tools: Agile software development Agile
+methods and agile development, Extreme programming Practices, Testing in XP,Pair programming Introduction to agile tools
+Case Studies An information system , wilderness weather system</item>
+
+        <item>Requirements Engineering: User and system requirements, Functional and non-functional requirements, Types and Metrics, A spiral view of the requirements engineering process. Software
+Requirements Specification  The software requirements Specification document, The structure of SRS, Ways of writing a SRS, structured and tabular SRS for an insulin pump case
+study, Requirements elicitation and Analysis Process, Requirements validation, Requirements management. Case Studies The information system.
+Case study  Mental health care patient management system </item>
+
+        <item>Design Process and quality, Design Concepts, The design Model, Pattern based Software Design.Architectural Design :Design Decisions, Views, Patterns, Application Architectures, Modeling
+Component level Design: component, Designing class based components, conducting component level design, User Interface Design The golden rules, Interface Design steps and
+Analysis, Design Evaluation, Case Study Web App Interface Design</item>
+
+        <item>Project Management Concepts The Management Spectrum, People, Product, Process, Project,The W5HH Principle, Metrics in the Process and Project Domains, Software Measurement  size
+and function oriented metrics, Metrics for Project and Software Quality, Project Estimation Observations on Estimation, Project Planning Process, Software Scope and
+feasibility, Resources Human Resources, Reusable software, Environmental Resources. Software Project Estimation, Decomposition Techniques, Empirical Estimation Models Structure,
+ Estimation of  Projects, Specialized Estimation Case Study:Software Tools for Estimation, Project Scheduling: Basic Concepts, Defining a Task Set for the
+Software Project, Defining Task Network, Scheduling with timeline charts, Schedule trackingTools:- Microsoft Project, Daily Activity Reporting and Tracking </item>
+
+
+        <item>Project Risk Management  Risk Analysis and Management Reactive versus Proactive Risk Strategies, Software Risks, Risk Identification, Risk Projection, Risk Refinement, Risk Mitigation,
+Risks Monitoring and Management, The  plan for case study projectSoftware Configuration Management: The SCM repository, SCM process, Configuration
+management for WebApps, Case study CVS and Subversion Tools, Visual Source Safe from Microsoft and Clear Case. Maintenance and   Software Maintenance, Software
+Supportability,  Business Process  Software  ReverseEngineering, Restructuring, Forward Engineering</item>
+
+        <item>Introduction to Software Testing, Principles of Testing, Testing Life Cycle, Phases of Testing,
+Types of Testing, Verification and Validation, Defect Management, Defect Life Cycle, Bug
+Reporting, GUI Testing, Test Management and Automation.</item>
+
+
+    </string-array>
+
+
+    <string-array name="ISEE">
+
+    <item>Role of Information Systems in Organizations, The Information System Manager and his
+challenges, Concepts of Information Systems, Information Systems and Management Strategy
+Case Studies  Information Systems in the Indian Railways, Information Systems in an eCommerce
+Organization.
+</item>
+
+        <item>Managing Information Systems, Ethical and Social Issues, Information Technology Infrastructure
+and Choices, Information Systems Security and Control,
+Case Studies Information Technology Infrastructure in a Bank, Information Technology
+Infrastructure in a manufacturing  process industry.</item>
+
+
+        <item>Information Systems Development and Project Management, Managing Data Resources,
+Business Process Integration and Enterprise Systems, ICT for Development and EGovernance,
+Case Studies   or cloud based ERP implementation,  Unique Identification
+Authority of India</item>
+
+
+        <item>Engineering Economic Decisions, Time Value of Money, Understanding Money Management,
+Case Studies Economic decisions done in Multinational companies</item>
+
+        <item>Equivalence Calculations under Inflation, Present-Worth Analysis, AnnualEquivalence Analysis.
+Case Studies comparative analysis of software enterprises from similar domains.</item>
+
+        <item>Accounting for Depreciation and Income Taxes, Project CashFlow Analysis, Understanding
+Financial Statements, Case Studies  cash flow analysis done in startup companies.</item>
+
+
+    </string-array>
+
+    <string-array name="CN">
+        <item>Introduction of LAN MAN WAN PAN,  Network, Network Architectures Client Server;
+Peer To Peer Distributed and SDN, OSI Model, TCP IP Model, Topologies Star and
+Hierarchical Design issues for Layers, Transmission Mediums CAT5, 5e, 6, OFC and Radio
+Spectrum, Network Devices Bridge, Switch, Router, and Access Point, Manchester and
+Differential Manchester Encodings 802.11 Frequency Hopping  and Direct
+Sequence
+</item>
+
+        <item>Design Issues: Services to Network Layer, Framing, Error Control and Flow Control. Error
+Control: Parity Bits, Hamming Codes  and CRC. Flow Control Protocols Unrestricted
+Simplex, Stop and Wait, Sliding Window Protocol, WAN Connectivity  PPP and </item>
+
+
+        <item>Channel allocation: Static and Dynamic, Multiple Access Protocols Pure and Slotted ALOHA,
+  802.3 Standards and Frame Formats,  CD, Binary Exponential Back
+off algorithm, Fast Ethernet, Gigabit Ethernet,  802.11 and  802.15 and
+802.16 Standards, Frame formats</item>
+
+
+        <item>Switching techniques, IP Protocol, IPv4 and IPv6 addressing schemes,  NAT,
+ Routing Protocols: Distance Vector, Link State, Path Vector, Routing in Internet RIP
+, BGP, Congestion control and QoS, Mobile IP, Routing in MANET
+DSR</item>
+
+        <item>Services, Berkley Sockets, Addressing, Connection establishment, Connection release, Flow
+control and buffering, Multiplexing,  TCP Timer management, TCP Congestion Control,
+Real Time Transport protocol Stream Control Transmission Protocol  Quality of
+Service  Differentiated services, TCP and UDP for Wireless.
+</item>
+
+        <item>Domain Name System  Hyper Text Transfer Protocol  Email MIME,
+POP3, FTP, TELNET, Dynamic Host Control Protocol  Simple Network
+Management Protocol
+</item>
+
+
+    </string-array>
+
+
+    <string-array name="titles">
+
+        <item> Unit1 </item>
+        <item> Unit2 </item>
+        <item> Unit3 </item>
+        <item> Unit4 </item>
+        <item> Unit5 </item>
+        <item> Unit6 </item>
+    </string-array>
+
+
+    <string-array name="faculty_name">
+        <item> Prof.Mrs.Shevatekar </item>
+        <item> Mrs.Survana Patil </item>
+        <item> Mrs. Ketaki Bhoyar</item>
+        <item> Mr.Vishal Patil </item>
+        <item> Mrs. Pooja Mishra </item>
+        <item> Mrs. Rashmi Deshpande </item>
+        <item> Mrs. Nalani Yadav</item>
+
+    </string-array>
+
+
+    <string-array name="Shevatekar">
+
+        <item>  (+91)9922996401 </item>
+        <item> pshevatekar@gmail.com</item>
+        <item> Computer Department, First Floor </item>
+
+    </string-array>
+
+
+    <string-array name="SurvanaPatil">
+
+        <item>  (+91)9881224977 </item>
+        <item> survanaatil@gmail.com</item>
+        <item> Android Lab1 </item>
+
+    </string-array>
+
+    <string-array name="KetakiBhoyar">
+
+        <item>  (+91)8446939412 </item>
+        <item> Ketakibhoyar@gmail.com</item>
+        <item> Android Lab2 </item>
+
+    </string-array>
+
+    <string-array name="VishalPatil">
+
+        <item>  (+91)7058857891  </item>
+        <item> VishalPatil@gmil.com</item>
+        <item> Android Lab3 </item>
+
+    </string-array>
+
+
+    <string-array name="PoojaMishra">
+
+        <item>  (+91)9921257325 </item>
+        <item> poojamishra@gmail.cm</item>
+        <item> Android Lab4 </item>
+
+    </string-array>
+
+
+    <string-array name="RashmiDeshpande">
+
+        <item> (+91)9422325572 </item>
+        <item> rashmideshpande@gmail.com</item>
+        <item> Android Lab5 </item>
+
+    </string-array>
+
+
+    <string-array name="NalaniYadav">
+        <item> (+91)9881718186 </item>
+        <item> nalaniyadav@gmail.com</item>
+        <item> Android Lab5 </item>
+
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inforrrr"
+    tools:context=".PlacementActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ToolbarPlacements"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        app:title="Placements"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ToolbarPlacements"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="11dp"
+        android:gravity="center"
+        android:text="The Training and Placement Cell is an integral part of this college. Training and Placement activities are organized throughout the year with a view to prepare the prospective learners for the campus selection programs. It is heartening to state that reputed industries across the country visit this college regularly for campus recruitment programs however, cell maintains good rapport with all industries for effective recruitment. In order to enhance the employability quotient of the students as demanded by industry, the Training and Placement cell provides the much needed training to the students to hone their employability skills."
+        android:textColor="#2d2d2d"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/book1"
+        android:layout_width="268dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/pdl" />
+
+</RelativeLayout>

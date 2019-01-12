@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.smartcollege.aradhyakahate.smartcollege">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/meri"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".WeekActivity" />
+        <activity android:name=".SubjectActivity" />
+        <activity android:name=".FacultyActivity" />
+        <activity android:name=".CompsaActivity" />
+        <activity android:name=".Studentinformation" />
+        <activity android:name=".CollegeActivity" />
+        <activity android:name=".DayDetail" />
+        <activity android:name=".SubjectDetails" />
+        <activity android:name=".FacultyDetails" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DeveloperActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".FirstActivity" />
+        <activity android:name=".PlacementActivity" />
+        <activity android:name=".Book1"></activity>
+    </application>
+
+</manifest>
